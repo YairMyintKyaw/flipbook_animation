@@ -1,0 +1,12 @@
+.parapara {
+  display: inline-block;
+  width: 134px;
+  height: 166px;
+  background: url("./assets/images/img_girRunning.png") no-repeat;
+  animation: parapara 0.6s steps(6) infinite;
+}
+@keyframes parapara {
+  to {
+    background-position: -792px 0;
+  }
+}
